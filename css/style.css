@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', monospace;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(107, 183, 255), #fff);
+    height: 100vh;
+}
+
+main {
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+}
+
+.pokedex {
+    width: 100%;
+    max-width: 425px;
+}
+
+.imagem-pokemon {
+    position: absolute;
+    width: 25%;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.personagem-data {
+    width: 50%;
+    position: absolute;
+    bottom: 41%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: clamp(5px,5vw, 20px);
+}
+
+.nome-pokemon {
+    text-transform: capitalize;
+}
+
+.formulario {
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform: translateX(-55%);
+    width: 50%;
+}
+
+.inputsearch {
+    width: 100%;
+    padding: 4%;
+    background-color: #E3E3E3;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: -3px 1px black, -4px 2px grey;
+    outline: none;
+    font-weight: 600;
+    font-size: clamp(5px,5vw,15px);
+}
+
+.buttons {
+    width: 50%;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-55%);
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    cursor: pointer;
+    width: 50%;
+    padding: 4%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #E3E3E3;
+    box-shadow: -4px 2px #000;
+    font-size: clamp(5px,5vw,15px);
+}
+
+button:active {
+    box-shadow: -5px 3px black inset;
+
+}
