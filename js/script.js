@@ -76,4 +76,4 @@ buttonNext.addEventListener('click', () => {
 })
 
 
-renderPokemon('1')
+renderPokemon('1')//Renderiza o primeiro pokemon ao recarregar a página.
